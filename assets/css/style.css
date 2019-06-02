@@ -3,52 +3,13 @@
 }
 
 
-#train2 {
-	width: 40%;
+.jumbotron {
+   width: 100%;
+   background-color: white;
 }
 
-
-body {
-	background-image: url(../images/train1.jpg);
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} 
-
-
-#title {
-	font-family: 'Arbutus Slab', serif;
-	font-size: 50px;
-}
-
-
-.table {
-	width: 100%;
-}
-
-
-th {
-	font-family: 'Shrikhand', cursive;
-	font-size: 20px;
-	font-weight: 200;
-}
-
-
-.classbody, label {
-	font-family: 'Shrikhand', cursive;
-	font-size: 15px;
-	font-weight: 200;
-}
-
-
-.panel-title{
-	font-family: 'Arbutus Slab', serif;
-	font-size: 30px;
-}
-
-
-tbody {
-	font-family: 'Marcellus SC', serif;
-	font-size: 18px;
+#trainLogo {
+    width: 100%;
+    position: relative;
 }
 

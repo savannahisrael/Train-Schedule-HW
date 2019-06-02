@@ -1,23 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-
-	<title>FireBase Homework</title>
-
-
+    <title>Train Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
-	<link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Marcellus+SC|Shrikhand" rel="stylesheet">
-
-
 </head>
 
 
@@ -28,17 +16,19 @@
 
 
 			<div class="jumbotron" style="text-align: center;">
-				<h1 id="title">Chicago Train Schedule</h1>
-				<img id="train2" src="assets/images/train2.jpg" alt="Chicago Train">
+                
+                <img id="trainLogo" src="assets/images/euroTrainHeader.png" alt="Europe Train Logo">
+                <h1>Travel By Train</h1>
+                <h3>Itenerary & Scheduling Tool</h3>
 			</div>
 	</div>
 
 
-	<div class="container">
+	<div class="container" >
 		<div class="row">
 
-
-			<div class="col-lg-12">
+            <div class="col-md-1"></div>
+			<div class="col-md-10">
 
 
 				<div class="panel panel-primary">
@@ -47,7 +37,7 @@
 					<div class="panel-heading panel-heading-custom">
 
 
-						<h1 class="panel-title">Train Schedule</h1>
+						<h1 class="panel-title">Train Schedules</h1>
 
 
 					</div>
@@ -61,10 +51,11 @@
 
 							<thead>
 								<tr>
-									<th>Train Name</th>
+                                    <th>Train Name</th>
+                                    <th>Origin</th>
 									<th>Desination</th>
 									<th>Frequency (min)</th>
-									<th>Next Arrival</th>
+									<th>Next Departure</th>
 									<th>Minutes Away</th>
 								</tr>
 							</thead>
@@ -86,7 +77,7 @@
 
 
 				    <div class="panel-heading panel-heading-custom">
-				    	<h1 class="panel-title">Add Train</h1>
+				    	<h1 class="panel-title">Add Your Train</h1>
 				    </div>
 
 
@@ -99,6 +90,10 @@
 								<input type="text" class="form-control" id="trainname">
 							</div>
 
+                            <div class="form-group">
+								<label>Origin</label>
+								<input type="text" class="form-control" id="origin">
+							</div>
 
 							<div class="form-group">
 								<label>Destination</label>
@@ -118,7 +113,7 @@
 							</div>
 
 
-							<button class="btn-success glyphicon glyphicon-ok" id="submit">Submit<span></span></button>
+							<button class="btn-success" id="submit">All Aboard!<span></span></button>
 						</form>
 					</div>
 
